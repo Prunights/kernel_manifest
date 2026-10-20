@@ -1,2 +1,2 @@
-# kernel_manifest
-n2f kernel build manifest
+# how to build
+./kernel_platform/oplus/build/oplus_build_kernel.sh unknown gki
