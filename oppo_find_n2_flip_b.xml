@@ -7,7 +7,7 @@
   <remote fetch="https://github.com/Prunights" name="mine"/>
 
   <!-- 内核源码走你自己的 fork / 你自己的分支 -->
-  <project remote="mine" name="android_kernel_5.10_oppo_mt6983" path="kernel-5.10" revision="oppo/mt6983_b_16.0.0_find_n2_flip_lts272">
+  <project remote="mine" name="android_kernel_5.10_oppo_mt6983" path="kernel-5.10" revision="n2f-236">
     <linkfile dest="kernel_platform/common" src="."/>
   </project>
 
