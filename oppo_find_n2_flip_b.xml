@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo" review="codelinaro.org"/>
-  <default remote="clo" revision="oppo/mt6983_b_16.0.0_find_n2_flip_245" sync-j="8"/>
+  <default remote="clo" revision="kernel.build.lnx.1.0" sync-j="8"/>
   <remote fetch="https://github.com/oppo-source" name="origin"/>
   <!-- 你的 fork，只给内核源码用 -->
   <remote fetch="https://github.com/Prunights" name="mine"/>
 
   <!-- 内核源码走你自己的 fork / 你自己的分支 -->
-  <project remote="mine" name="android_kernel_5.10_oppo_mt6983" path="kernel-5.10" revision="oppo/mt6983_b_16.0.0_find_n2_flip_236">
+  <project remote="mine" name="android_kernel_5.10_oppo_mt6983" path="kernel-5.10" revision="oppo/mt6983_b_16.0.0_find_n2_flip_245">
     <linkfile dest="kernel_platform/common" src="."/>
   </project>
 
